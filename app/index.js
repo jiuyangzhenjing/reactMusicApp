@@ -4,7 +4,7 @@ import { AppContainer } from 'react-hot-loader'
 import Root from './root';
 import 'bootstrap/dist/css/bootstrap.css'
 
-render( <AppContainer><Root className="container" /></AppContainer>,
+render( <AppContainer><Root/></AppContainer>,
     document.getElementById('root')
 );
 
